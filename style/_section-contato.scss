@@ -1,0 +1,40 @@
+
+#section-contato {
+    text-align: start;
+    margin: 0;
+    padding: 0;
+
+    .container {
+        max-width: 800px;
+        padding: 0;
+    }
+
+    h1 {
+        color: var(--azulprincipal);
+        font-weight: 700;
+        font-size: 25px;
+        margin-top: 40px;
+        text-align: center;
+    }
+    p {
+        font-size: 15px;
+        text-decoration: none;
+        color: var(--texto);
+        text-align: center;
+    }
+
+    a { 
+        text-decoration: none;
+    }
+
+    .btn {
+        text-align: center;
+        background-color: var(--laranja);
+        border: none;
+        width: 200px;
+        font-size: 15px;
+    }
+    .btn:hover {
+        background-color: #eb9b23;
+    }
+}

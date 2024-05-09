@@ -1,0 +1,31 @@
+
+#section-faq {
+    h2 {
+        color: var(--azulprincipal);
+        font-weight: 700;
+        font-size: 25px;
+    }
+    .accordion-header {
+        background-color: white; /* Cor de fundo */
+    }
+    
+    .accordion-button {
+        color: var(--azulprincipal); /* Cor do texto */
+        font-weight: 600; /* Peso da fonte */
+    }
+    
+    .accordion-button:not(.collapsed) {
+        background-color: white; /* Cor de fundo quando expandido */
+        color: var(--azulprincipal); /* Cor do texto quando expandido */
+    }
+    .accordion-body {
+        font-size: 15px; /* Tamanho da fonte */
+        color: var(--texto); /* Cor do texto */
+        background-color: white; /* Cor de fundo */
+        text-align: justify;
+    }
+
+    .accordion-button:hover {
+        background-color: white; /* Cor de fundo ao passar o mouse */
+    }
+}

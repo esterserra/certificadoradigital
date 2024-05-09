@@ -1,0 +1,21 @@
+
+.section-atendimento {
+    align-items: center;
+    h1 {
+        color: var(--azulprincipal);
+        font-weight: 700;
+        font-size: 25px;
+        margin-top: 40px;
+        text-align: center;
+    }
+    p {
+        font-size: 14px;
+        text-align: center;
+        color: var(--texto);
+    }
+
+    .container {
+        justify-content: center;
+    }
+}
+

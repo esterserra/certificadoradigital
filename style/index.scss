@@ -1,0 +1,22 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+:root {
+    --laranja: #E6800A;
+    --azulprincipal: #054990;
+    --azulsecundario: #B0D2DE;
+    --texto: #565555;
+}
+
+body {
+    font-family: "Mulish", sans-serif;
+}
+
+@import './repositorio';
+@import './header';
+@import './section-inicio';
+@import './section-servicos';
+@import './section-faq';
+@import './section-contato';
+@import './section-atendimento';
+@import './footer';

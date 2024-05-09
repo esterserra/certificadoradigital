@@ -1,0 +1,217 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
+:root {
+  --laranja: #E6800A;
+  --azulprincipal: #054990;
+  --azulsecundario: #B0D2DE;
+  --texto: #565555;
+}
+
+body {
+  font-family: "Mulish", sans-serif;
+}
+
+.repositorio {
+  padding: 0 15px 0 15px;
+  text-align: center;
+}
+.repositorio h1 {
+  color: var(--azulprincipal);
+  font-weight: 700;
+  font-size: 25px;
+}
+.repositorio a {
+  color: var(--texto);
+  font-size: 15px;
+}
+
+.header-container {
+  margin-top: 20px;
+}
+
+.botaoheader {
+  background-color: white;
+  color: var(--laranja);
+  width: 200x;
+  height: 35px;
+  font-size: 16px;
+  border-color: var(--laranja);
+}
+
+.btn.btn-secondary.dropdown-toggle.botaoheader, .dropdown-item {
+  background-color: white; /* Cor inicial do fundo */
+  border-color: var(--laranja); /* Alteração da cor da borda */
+}
+
+.btn.btn-secondary.dropdown-toggle.botaoheader:hover, .dropdown-item:hover {
+  background-color: white; /* Remove o cinza ao passar o mouse */
+  border-color: var(--laranja); /* Alteração da cor da borda quando hover */
+}
+
+.btn.btn-secondary.dropdown-toggle.botaoheader:focus, .btn.btn-secondary.dropdown-toggle.botaoheader:active, .dropdown-item:focus, .dropdown-item:active {
+  background-color: white; /* Remove a cor ao clicar ou focar */
+  border-color: var(--laranja); /* Alteração da cor da borda quando ativo ou focado */
+  color: var(--laranja); /* Mantém a cor do texto original ou especificada */
+  box-shadow: none; /* Remove o box-shadow padrão do Bootstrap ao focar */
+}
+
+#section-inicio {
+  margin-top: 60px;
+}
+#section-inicio .card {
+  border: none;
+}
+#section-inicio .card-title {
+  font-size: 37px;
+  font-weight: 900;
+  line-height: 1;
+  padding: 0px 12px 0px 12px;
+  text-align: center;
+  color: var(--azulprincipal);
+}
+#section-inicio .card-text {
+  font-size: 16px;
+  color: var(--texto);
+  font-weight: 400;
+  padding: 5px 15px 5px 15px;
+  text-align: justify;
+}
+#section-inicio .btn-primary {
+  background-color: var(--azulprincipal);
+}
+#section-inicio .btn-primary:hover {
+  background-color: #0d62bd;
+}
+
+.section-servicos {
+  text-align: center;
+  color: var(--texto);
+  margin-top: 15px;
+}
+
+.paragrafo-inicial {
+  max-width: 900px;
+  font-size: 15px;
+  padding: 10px 30px 5px 30px;
+  text-align: justify;
+}
+
+.titulo-h1 {
+  color: var(--azulprincipal);
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.img-sevicos {
+  width: 50px;
+  margin-top: 20px;
+}
+
+.servicos-h1 {
+  color: var(--laranja);
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.servicos-p {
+  color: var(--texto);
+  font-size: 15px;
+}
+
+#section-faq h2 {
+  color: var(--azulprincipal);
+  font-weight: 700;
+  font-size: 25px;
+}
+#section-faq .accordion-header {
+  background-color: white; /* Cor de fundo */
+}
+#section-faq .accordion-button {
+  color: var(--azulprincipal); /* Cor do texto */
+  font-weight: 600; /* Peso da fonte */
+}
+#section-faq .accordion-button:not(.collapsed) {
+  background-color: white; /* Cor de fundo quando expandido */
+  color: var(--azulprincipal); /* Cor do texto quando expandido */
+}
+#section-faq .accordion-body {
+  font-size: 15px; /* Tamanho da fonte */
+  color: var(--texto); /* Cor do texto */
+  background-color: white; /* Cor de fundo */
+  text-align: justify;
+}
+#section-faq .accordion-button:hover {
+  background-color: white; /* Cor de fundo ao passar o mouse */
+}
+
+#section-contato {
+  text-align: start;
+  margin: 0;
+  padding: 0;
+}
+#section-contato .container {
+  max-width: 800px;
+  padding: 0;
+}
+#section-contato h1 {
+  color: var(--azulprincipal);
+  font-weight: 700;
+  font-size: 25px;
+  margin-top: 40px;
+  text-align: center;
+}
+#section-contato p {
+  font-size: 15px;
+  text-decoration: none;
+  color: var(--texto);
+  text-align: center;
+}
+#section-contato a {
+  text-decoration: none;
+}
+#section-contato .btn {
+  text-align: center;
+  background-color: var(--laranja);
+  border: none;
+  width: 200px;
+  font-size: 15px;
+}
+#section-contato .btn:hover {
+  background-color: #eb9b23;
+}
+
+.section-atendimento {
+  align-items: center;
+}
+.section-atendimento h1 {
+  color: var(--azulprincipal);
+  font-weight: 700;
+  font-size: 25px;
+  margin-top: 40px;
+  text-align: center;
+}
+.section-atendimento p {
+  font-size: 14px;
+  text-align: center;
+  color: var(--texto);
+}
+.section-atendimento .container {
+  justify-content: center;
+}
+
+.footer {
+  background-color: var(--azulprincipal);
+}
+.footer p {
+  font-size: 14px;
+  text-align: center;
+  color: white;
+  padding: 18px;
+  margin: -16px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.footer a {
+  text-decoration: none;
+  color: white;
+}/*# sourceMappingURL=index.css.map */

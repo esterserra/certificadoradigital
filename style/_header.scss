@@ -1,0 +1,31 @@
+.header-container {
+    margin-top: 20px;
+}
+
+.botaoheader {
+    background-color: white;
+    color: var(--laranja);
+    width: 200x;
+    height: 35px;
+    font-size: 16px;
+    border-color: var(--laranja);
+}
+
+.btn.btn-secondary.dropdown-toggle.botaoheader,.dropdown-item {
+    background-color: white; /* Cor inicial do fundo */
+    border-color: var(--laranja); /* Alteração da cor da borda */
+}
+
+.btn.btn-secondary.dropdown-toggle.botaoheader:hover,.dropdown-item:hover {
+    background-color: white; /* Remove o cinza ao passar o mouse */
+    border-color: var(--laranja); /* Alteração da cor da borda quando hover */
+}
+
+.btn.btn-secondary.dropdown-toggle.botaoheader:focus,.btn.btn-secondary.dropdown-toggle.botaoheader:active,.dropdown-item:focus,.dropdown-item:active {
+    background-color: white; /* Remove a cor ao clicar ou focar */
+    border-color: var(--laranja); /* Alteração da cor da borda quando ativo ou focado */
+    color: var(--laranja); /* Mantém a cor do texto original ou especificada */
+    box-shadow: none; /* Remove o box-shadow padrão do Bootstrap ao focar */
+}
+
+
